@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-03-07T14:46:56.909061521+02:00"
+    description: A Helm chart for Kubernetes
+    digest: eec30466008e06b6c68146eaf705f0642eb9373e99e46d1bb0fa4e9dcbaed6c7
+    home: http://github/shay79il/mychart
+    icon: https://helm.sh/img/helm.svg
+    maintainers:
+    - email: shay79il@gmail.com
+      name: Shay
+    name: mychart
+    type: application
+    urls:
+    - https://shay79il.github.io/helm-chart/mychart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-07T14:46:56.906193715+02:00"
