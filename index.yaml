@@ -1,19 +1,19 @@
 apiVersion: v1
 entries:
-  mychart:
+  home-assignment-1:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-07T14:46:56.909061521+02:00"
+    created: "2022-03-07T18:32:32.431185083+02:00"
     description: A Helm chart for Kubernetes
-    digest: eec30466008e06b6c68146eaf705f0642eb9373e99e46d1bb0fa4e9dcbaed6c7
-    home: http://github/shay79il/mychart
+    digest: 45edeb05a8c5e17385f417ccbef8d6cd82ba465344f5de828200f3cf2522c638
+    home: https://github.com/shay79il/helm-chart
     icon: https://helm.sh/img/helm.svg
     maintainers:
     - email: shay79il@gmail.com
       name: Shay
-    name: mychart
+    name: home-assignment-1
     type: application
     urls:
-    - https://shay79il.github.io/helm-chart/mychart-0.1.0.tgz
+    - https://shay79il.github.io/helm-chart/home-assignment-1-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-07T14:46:56.906193715+02:00"
+generated: "2022-03-07T18:32:32.430611366+02:00"
