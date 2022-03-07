@@ -10,7 +10,7 @@ Version: 0.1.0
 appVersion: "1.0.0"
 
 # My chart name
-name: mychart
+name: home-assignment-1
 description: A Helm chart for Kubernetes
 
 # Chart type : application / library
