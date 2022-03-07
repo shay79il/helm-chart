@@ -6,10 +6,10 @@ metadata:
   labels:
       app: python-app
 spec:
-  type: ClusterIP
+  type: {{ .Values.service.type }}
   selector:
     app: python-app
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
+    - protocol: {{ .Values.service.protocol }}
+      port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.targetPort }}

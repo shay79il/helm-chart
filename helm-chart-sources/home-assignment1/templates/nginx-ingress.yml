@@ -10,20 +10,20 @@ spec:
   - host: "nginx.shay.com"
     http:
       paths:
-      - pathType: Prefix
+      - pathType: {{ .Values.ingress.pathType }}
         path: /
         backend:
           service:
             name: {{ .Release.Name }}-nginx-svc
             port:
-              number: 80
+              number: {{ .Values.service.port }}
   - host: "app.shay.com"
     http:
       paths:
-      - pathType: Prefix
+      - pathType: {{ .Values.ingress.pathType }}
         path: /
         backend:
           service:
             name: {{ .Release.Name }}-app-svc
             port:
-              number: 80
+              number: {{ .Values.service.port }}

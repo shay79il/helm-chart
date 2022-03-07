@@ -4,7 +4,7 @@ apiVersion: v2
 # Chart version
 # follow Semantic Versioning
 # (https://semver.org/)
-Version: 0.1.0
+Version: 0.1.1
 
 # My app version
 appVersion: "1.0.0"
@@ -24,7 +24,7 @@ type: application
 #    version: TBD
 
 # Add any keywords
-# Used for searchzzzzz in public charts
+# Used for search in public charts
 #keywords:
 #  - TBD1
 #  - TBD2
