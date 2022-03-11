@@ -1,0 +1,39 @@
+# For Helm 3
+apiVersion: v2
+
+# Chart version
+# follow Semantic Versioning
+# (https://semver.org/)
+Version: 0.1.0
+
+# My app version
+appVersion: "1.0.0"
+
+# My chart name
+name: trigo-app-a
+description: A Helm chart for Kubernetes
+
+# Chart type : application / library
+type: application
+
+# Add any dependencies
+#dependencies:
+#  - condition: TBD
+#    name: TNB
+#    repository: TBD
+#    version: TBD
+
+# Add any keywords
+# Used for search in public charts
+#keywords:
+#  - TBD1
+#  - TBD2
+#  - TBD3
+
+maintainers:
+  - email: shay79il@gmail.com
+    name: Shay
+
+home: https://github.com/shay79il/helm-chart
+icon: https://helm.sh/img/helm.svg
+

@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-app-a
+  namespace: {{ default "default" .Release.Namespace }}
+  labels:
+    tier: {{ default "One" .Values.app.conf }}
+spec:
+  replicas: {{ .Values.app.replicas }}
+  selector:
+    matchLabels:
+      tier: {{ default "One" .Values.app.conf }}
+  template:
+    metadata:
+      labels:
+        tier: {{ default "One" .Values.app.conf }}
+    spec:
+      containers:
+      - name:  {{ .Values.app.name }}
+        image: {{ .Values.app.image }}
+        ports:
+        - containerPort: {{ .Values.app.port }}
+        env:
+          - name: REGION
+            value: {{ .Values.app.region }}
+          - name: ENV_NAME
+            value: {{ .Values.app.env }}
+          - name: URL
+            valueFrom:
+              configMapKeyRef:
+                name: {{ .Release.Name }}-app-a-cm
+                key: url
+        readinessProbe:
+          tcpSocket:
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 15
+          periodSeconds: 20

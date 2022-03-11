@@ -1,0 +1,18 @@
+# Default values for mychart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+service:
+  type: ClusterIP
+  protocol: TCP
+  targetPort: 80
+  port: 80
+
+app:
+  image: shay79il/app-a
+  name: app-a
+  port: 80
+  replicas: ""
+  region: ""
+  env: ""
+

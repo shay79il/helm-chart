@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-app-a-svc
+  namespace: {{ default "default" .Release.Namespace }}
+  labels:
+    tier: {{ default "One" .Values.app.conf }}
+spec:
+  type: {{ .Values.service.type }}
+  selector:
+    tier: {{ default "One" .Values.app.conf }}
+  ports:
+    - protocol: {{ .Values.service.protocol }}
+      port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.targetPort }}
