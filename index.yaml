@@ -3,9 +3,9 @@ entries:
   home-assignment-1:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-08T01:09:51.093725197+02:00"
+    created: "2022-03-11T22:14:04.962192411+02:00"
     description: A Helm chart for Kubernetes
-    digest: aabfa2c9977d33e86a30ac36255ff8c938c56102408bd94cfa8039da38135a8a
+    digest: b72732c9132fc2b5b7a67b2a5c6b6abadc51e56f02219f2a4e418eeaa6c944fe
     home: https://github.com/shay79il/helm-chart
     icon: https://helm.sh/img/helm.svg
     maintainers:
@@ -18,7 +18,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-08T01:09:51.093409494+02:00"
+    created: "2022-03-11T22:14:04.961727788+02:00"
     description: A Helm chart for Kubernetes
     digest: 45edeb05a8c5e17385f417ccbef8d6cd82ba465344f5de828200f3cf2522c638
     home: https://github.com/shay79il/helm-chart
@@ -31,4 +31,36 @@ entries:
     urls:
     - https://shay79il.github.io/helm-chart/home-assignment-1-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-08T01:09:51.089118681+02:00"
+  trigo-app-a:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-03-11T22:14:04.962549122+02:00"
+    description: A Helm chart for Kubernetes
+    digest: a93c81d79fbc40d3121b44820b92bb8112fab6b5fb2e5f01b6303322799b4986
+    home: https://github.com/shay79il/helm-chart
+    icon: https://helm.sh/img/helm.svg
+    maintainers:
+    - email: shay79il@gmail.com
+      name: Shay
+    name: trigo-app-a
+    type: application
+    urls:
+    - https://shay79il.github.io/helm-chart/trigo-app-a-0.1.0.tgz
+    version: 0.1.0
+  trigo-app-b:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-03-11T22:14:04.962889484+02:00"
+    description: A Helm chart for Kubernetes
+    digest: b4a62b32ebcc6a47752f92f814789d0f147942c6c0d3560beb1d638e3d87d579
+    home: https://github.com/shay79il/helm-chart
+    icon: https://helm.sh/img/helm.svg
+    maintainers:
+    - email: shay79il@gmail.com
+      name: Shay
+    name: trigo-app-b
+    type: application
+    urls:
+    - https://shay79il.github.io/helm-chart/trigo-app-b-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-11T22:14:04.960470776+02:00"

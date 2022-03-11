@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-app-a-cm
+  namespace: {{ default "default" .Release.Namespace }}
+data:
+  url: "app-a.com"
