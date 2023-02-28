@@ -3,9 +3,9 @@ entries:
   home-assignment-1:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-11T22:14:04.962192411+02:00"
+    created: "2023-02-28T12:21:08.793151662+02:00"
     description: A Helm chart for Kubernetes
-    digest: b72732c9132fc2b5b7a67b2a5c6b6abadc51e56f02219f2a4e418eeaa6c944fe
+    digest: 2ede54c5981554e6fbd405e21fa04dcc070dd70336f8cfe3d6ff2af298e85446
     home: https://github.com/shay79il/helm-chart
     icon: https://helm.sh/img/helm.svg
     maintainers:
@@ -18,7 +18,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-11T22:14:04.961727788+02:00"
+    created: "2023-02-28T12:21:08.792830728+02:00"
     description: A Helm chart for Kubernetes
     digest: 45edeb05a8c5e17385f417ccbef8d6cd82ba465344f5de828200f3cf2522c638
     home: https://github.com/shay79il/helm-chart
@@ -34,9 +34,9 @@ entries:
   trigo-app-a:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-11T22:14:04.962549122+02:00"
+    created: "2023-02-28T12:21:08.793374309+02:00"
     description: A Helm chart for Kubernetes
-    digest: a93c81d79fbc40d3121b44820b92bb8112fab6b5fb2e5f01b6303322799b4986
+    digest: 1a950d14194b042b195a66693db89e1c41262781d306f848f8ac8b1ebedfdd8b
     home: https://github.com/shay79il/helm-chart
     icon: https://helm.sh/img/helm.svg
     maintainers:
@@ -50,9 +50,9 @@ entries:
   trigo-app-b:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-03-11T22:14:04.962889484+02:00"
+    created: "2023-02-28T12:21:08.79359752+02:00"
     description: A Helm chart for Kubernetes
-    digest: b4a62b32ebcc6a47752f92f814789d0f147942c6c0d3560beb1d638e3d87d579
+    digest: 9fa5e2a0667d874573ba57f74175e2ec6dead7526f82c5733368f0accb2be10c
     home: https://github.com/shay79il/helm-chart
     icon: https://helm.sh/img/helm.svg
     maintainers:
@@ -63,4 +63,20 @@ entries:
     urls:
     - https://shay79il.github.io/helm-chart/trigo-app-b-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-11T22:14:04.960470776+02:00"
+  wordpress-mysql:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-28T12:21:08.793919079+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 9437d9f0f7d2054ae58601bd3c2de42daa6966234fe9eb77f647fff571155f90
+    home: https://github.com/shay79il/helm-chart
+    icon: https://helm.sh/img/helm.svg
+    maintainers:
+    - email: shay79il@gmail.com
+      name: Shay
+    name: wordpress-mysql
+    type: application
+    urls:
+    - https://shay79il.github.io/helm-chart/wordpress-mysql-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-02-28T12:21:08.791913854+02:00"
