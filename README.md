@@ -26,5 +26,5 @@ helm repo add <repo-name> https://<username>.github.io/helm-chart/
 
 ## 7) Upgrade changes to repo 
 ```bash
-helm upgrade -i <release-name> <repo-name>
+helm upgrade -i <release-name> <repo-name>/<helm-chart-name>
 ```
